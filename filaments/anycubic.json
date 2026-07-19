@@ -293,6 +293,102 @@
             ]
         },
         {
+            "name": "Silk {color_name}",
+            "material": "PLA",
+            "density": 1.22,
+            "weights": [
+                {
+                    "weight": 1000,
+                    "spool_weight": 127,
+                    "spool_type": "plastic"
+                }
+            ],
+            "diameters": [
+                1.75
+            ],
+            "extruder_temp_range": [
+                210, 
+                240
+            ],
+			"bed_temp_range": [
+				55,
+				56
+			],
+            "finish": "glossy",
+            "colors": [
+                {
+                    "name": "Gold",
+                    "hex": "D19000"
+                },
+                {
+                    "name": "Gold (Old)",
+                    "hex": "F1B434"
+                },
+                {
+                    "name": "Silver",
+                    "hex": "8D9093"
+                },
+                {
+                    "name": "Silver (Old)",
+                    "hex": "768692"
+                },
+                {
+                    "name": "Copper",
+                    "hex": "AF5C37"
+                },
+                {
+                    "name": "Copper (Old)",
+                    "hex": "AC7052"
+                },
+                {
+                    "name": "White",
+                    "hex": "D9D9D6"
+                },
+                {
+                    "name": "White (Old)",
+                    "hex": "E9E9E7"
+                },
+                {
+                    "name": "Blue",
+                    "hex": "0067B9"
+                },
+                {
+                    "name": "Green",
+                    "hex": "52D2BC"
+                },
+                {
+                    "name": "Pink",
+                    "hex": "FCAFC0"
+                },
+                {
+                    "name": "Purple",
+                    "hex": "8B84D7"
+                },
+                {
+                    "name": "Shiny Gold",
+                    "hex": "F2A900"
+                },
+                {
+                    "name": "Christmas Red",
+                    "hex": "D22630"
+                },
+                {
+                    "name": "Christmas Green",
+                    "hex": "008755"
+                },
+                {
+                    "name": "Rainbow",
+                    "multi_color_direction": "longitudinal",
+                    "hexes": [
+                        "FF41B8",
+                        "F1C400",
+                        "00B74F",
+                        "B669FF"
+                    ]
+                }
+            ]
+        },
+        {
             "name": "{color_name}",
             "material": "PLA+",
             "density": 1.23,
